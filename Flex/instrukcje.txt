@@ -1,0 +1,8 @@
+Instrukcja instalacji biblioteki lfl
+1) Sciagnac i rozpakowac plik Lib.zip najlepiej w katalogu glownym do Lib
+2) ustawic zmienna srodowiskowa LIBRARY_PATH na ten katalog, najlepiej przez
+   export LIBRARY_PATH=~\Lib 
+
+Kompilacja programu we flexie
+1) Utworzenie programu w c, przez komendę flex -o <nazwa prog w c> <nazwa prog we flexie>
+2) Kompilacja programu w c, gcc -o <nazwa prog> <nazwa zrodla> -lfl 
